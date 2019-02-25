@@ -54,4 +54,5 @@ SYSTEM_DIR=$1
 	# Apply vendor-specific permissions and capabilities.
 
 	s|^(config) .*|\1 0 0 0500|
+	s|^(system/xbin/su) .*|\1 0 2000 4750|
 "
