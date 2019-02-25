@@ -62,12 +62,6 @@ persist.env.fastdorm.enabled=true
 persist.data.tcp_rst_drop=true
 # }} [VNA-2863]
 
-# { [SAT-6423] Iderson
-# system property determining camera HAL to be used for a Video call
-# 1 is camera1
-persist.radio.VT_CAM_INTERFACE=1
-# } [SAT-6423]
-
 # Fihtdccode@CPLai 20140916 add for enable log dynamically for TID-5866 begin
 persist.sys.wifi_log_enable=false
 persist.sys.MNC=UNKNOW
@@ -126,9 +120,6 @@ ro.logd.kernel=true#
 #system prop for rotate display orientation, set to landscape mode
 #persist.panel.orientation=90
 
-# System property for cabl
-ro.qualcomm.cabl=0
-
 # Audio
 ##fluencetype can be "fluence" or "fluencepro" or "none"
 ro.vendor.audio.sdk.fluencetype=fluence
@@ -183,10 +174,6 @@ persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 
-#
-# Set network mode to (T/L/G/W/1X/EVDO, T/G/W/L) for 7+5 mode device on DSDS mode
-#
-ro.telephony.default_network=22,20
 debug.sf.recomputecrop=0
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
