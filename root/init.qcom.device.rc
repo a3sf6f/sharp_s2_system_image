@@ -1,0 +1,9 @@
+import /init.qcom.cda.rc
+import /init.qcom.log.rc
+#import /init.qcom.util.rc
+import /init.fih.check.rc
+#import /init.qcom.poweroff_charging.rc
+#import /init.fih.tmpfs.rc
+import /init.fih.daemon.rc
+import /init.qcom.dischgdaemon.rc
+import /init.fih.runin.rc

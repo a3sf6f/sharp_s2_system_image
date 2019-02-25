@@ -1,0 +1,17 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Tue May 15 20:05:19 CST 2018
+ro.bootimage.build.date.utc=1526385919
+ro.bootimage.build.fingerprint=FIH/SAT_0002_FIH01/SAT:8.0.0/OPR1.170623.027/0002_2_080:user/release-keys
+persist.sys.usb.config=none
+
+

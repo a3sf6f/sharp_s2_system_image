@@ -1,0 +1,11 @@
+animation: 3 3 charger/battery_scale_sharp_w
+fail: charger/battery_fail_sharp
+clock_display: 0 0 0 0 0 0 charger/time_font
+percent_display: 450 1230 255 255 255 255 charger/percent_font_sharp
+ frame: 350 0 0
+ frame: 350 0 19
+ frame: 350 0 39
+ frame: 350 0 59
+ frame: 350 0 79
+ frame: 350 0 99
+ frame: 350 0 100

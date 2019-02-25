@@ -1,0 +1,22 @@
+# Copyright (c) 2017-2018, Sharp/Infocus Company. All rights reserved.
+#
+
+#20171206 hong.liu add for tcpdump log
+service tcpdumplog /system/bin/tcpdumplog
+    user root
+    group root
+
+on property:persist.sys.tcpdumplog.autoboot=true
+    start tcpdumplog
+
+on property:persist.sys.tcpdumplog.autoboot=false
+    stop tcpdumplog
+
+service hardcoder /system/bin/hardcoder ${persist.sys.hardcoder.name}
+    user root
+    group root
+    disabled
+    oneshot
+
+on property:persist.sys.hardcoder.name=*
+    start hardcoder

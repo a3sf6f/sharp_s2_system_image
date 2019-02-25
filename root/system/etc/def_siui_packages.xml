@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+
+    <package>
+        <pname>com.evenwell.gallery</pname>
+    </package>
+
+    <package>
+        <pname>com.siui.android.filemanager</pname>
+    </package>
+
+    <package>
+        <pname>com.android.contacts</pname>
+    </package>
+
+    <package>
+        <pname>com.siui.android.camera</pname>
+    </package>
+
+    <package>
+        <pname>com.siui.android.sharpsync</pname>
+    </package>
+
+</packages>

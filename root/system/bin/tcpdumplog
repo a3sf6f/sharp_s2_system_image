@@ -1,0 +1,5 @@
+#! /system/bin/sh
+if [ ! -d /sdcard/tcpdump/ ]; then
+	/system/bin/mkdir /sdcard/tcpdump/
+fi 
+/system/bin/tcpdump_FIH -p -vv -s 0 -i any -w /sdcard/tcpdump/capture_$(date "+%Y%m%d%H%M%S").pcap

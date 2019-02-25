@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    <full_screen_pkg>
+        <package>
+            <pname>com.siui.android.calculator</pname>
+        </package>
+        <package>
+            <pname>com.tencent.mm</pname>
+        </package>
+        <package>
+            <pname>com.tencent.tim</pname>
+        </package>
+        <package>
+            <pname>com.tencent.mobileqq</pname>
+        </package>
+        <package>
+            <pname>com.baidu.tieba</pname>
+        </package>
+        <package>
+            <pname>com.campmobile.snowcamera</pname>
+        </package>
+        <package>
+            <pname>com.android.browser</pname>
+        </package>
+        <package>
+            <pname>cn.wps.moffice_eng</pname>
+        </package>
+        <package>
+            <pname>com.fihtdc.demomode</pname>
+        </package>
+    </full_screen_pkg>
+
+    <no_full_screen_pkg>
+    </no_full_screen_pkg>
+
+    <horizontal_full_screen_pkg>
+        <package>
+            <pname>com.siui.android.gallery</pname>
+        </package>
+        <package>
+            <pname>com.youku.phone</pname>
+        </package>
+        <package>
+            <pname>tv.danmaku.bili</pname>
+        </package>
+    </horizontal_full_screen_pkg>
+</packages>
