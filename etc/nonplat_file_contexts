@@ -1,3 +1,4 @@
+/system/vendor	u:object_r:vendor_file:s0
 /(BBSYS|vendor/BBSYS)(/.*)?		u:object_r:bbs_file:s0
 /(elabel|vendor/elabel)(/.*)?		u:object_r:fih_elabel_data_file:s0
 /(hidden|vendor/hidden)(/.*)?		u:object_r:hidden_files:s0
@@ -792,3 +793,4 @@
 /sys/devices/virtual/net/bond0/queues/rx-0/rps_cpus		u:object_r:sysfs_bond0:s0
 /sys/devices/virtual/workqueue/kgsl-workqueue/cpumask		u:object_r:sysfs_kgsl:s0
 /sys/devices/vendor/vendor:bt_wcn3990/rfkill/rfkill0/state		u:object_r:sysfs_bluetooth_writable:s0
+.*/.gitkeep	u:object_r:system_file:s0
